@@ -32,3 +32,22 @@ A Python bot to **schedule and automate** Telegram messages with:
    ```bash
    git clone https://github.com/your-username/Telegram-Auto-Message-Sender.git
    cd Telegram-Auto-Message-Sender
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Create .env file (never commit this):
+   ```bash
+   echo "BOT_TOKEN=your_token_here" > .env
+### Usage
+1. Get your Chat ID:
+   ```bash
+   python get_chat_id.py
+
+   (Send any message to your bot - ID will print in console)
+2. Schedule messages:
+   ```bash
+   python python_telegram_scheduler.py
+Follow the CLI prompts to:
+Enter Chat ID
+Add text/photo
+Set schedule time (HH:MM or "now")
