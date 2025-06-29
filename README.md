@@ -3,7 +3,7 @@
 Python bot to schedule Telegram messages
 # Telegram Auto Message Scheduler 🤖⏰
 
-![Demo Screenshot](./assets/demo_output.png)
+![Demo Screenshot](./assets/demo_output.jpeg)
 
 A Python bot to **schedule and automate** Telegram messages with:
 - Text + photo attachments
