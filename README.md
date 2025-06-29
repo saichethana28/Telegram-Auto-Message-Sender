@@ -48,6 +48,6 @@ A Python bot to **schedule and automate** Telegram messages with:
    ```bash
    python python_telegram_scheduler.py
 Follow the CLI prompts to:
-Enter Chat ID
-Add text/photo
-Set schedule time (HH:MM or "now")
+-Enter Chat ID
+-Add text/photo
+-Set schedule time (HH:MM or "now")
